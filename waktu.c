@@ -15,8 +15,8 @@ int main() {
     detik = jam * 3600;
 
     printf("\nHasil Konversi:\n");
-    printf("%.2f jam = %.1f menit\n", jam, menit);
-    printf("%.2f jam = %.1f detik\n", jam, detik);
+    printf("%.2f jam = %.2f menit\n", jam, menit);
+    printf("%.2f jam = %.2f detik\n", jam, detik);
 
     return 0;
 }
